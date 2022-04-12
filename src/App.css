@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+.blank{
+   color: red;
+}
+.rainbow-lr {
+  background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
+  color:transparent;
+  background-clip: text;
+}
+.rainbow-td {
+  background: linear-gradient(to bottom, red, orange , yellow, green, cyan, blue, violet);
+  color:transparent;
+  background-clip: text;
+}
+.accordian-button::after{
+  filter:invert(1)
+}
